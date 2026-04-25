@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Membuat Tabel dalam HTML - Makanan</title>
+</head>
+<body>
+
+    <p><strong>Nama:</strong> Alvin Widiantara</p>
+    <p><strong>NPM:</strong> 25161562037</p>
+
+    <h2>Daftar Menu Makanan</h2>
+
+    <table border="1">
+        <tr>
+            <th>No</th>
+            <th>Nama Menu</th>
+            <th>Kategori</th>
+            <th>Kalori</th>
+            <th>Harga</th>
+            <th>Jenis</th>
+            <th>Stok</th>
+        </tr>
+         <!-- Baris 1-2 dengan rowspan Kategori "Makanan Berat" -->
+         <tr>
+            <td>1</td>
+            <td>Nasi Goreng</td>
+            <td rowspan="2">Makanan Berat</td>
+            <td>580</td>
+            <td>15000</td>
+            <td rowspan="2">Makanan</td>
+            <td>25</td>
+         </tr>
+         <tr>
+            <td>2</td>
+            <td>Mie Ayam</td>
+            <td>420</td>
+            <td>12000</td>
+            <td>30</td>
+         </tr>
+         <!-- Baris 3-4 dengan rowspan Kategori "Makanan Ringan" -->
+         <tr>
+            <td>3</td>
+            <td>Kentang Goreng</td>
+            <td rowspan="2">Makanan Ringan</td>
+            <td>320</td>
+            <td>10000</td>
+            <td rowspan="2">Snack</td>
+            <td>50</td>
+         </tr>
+         <tr>
+            <td>4</td>
+            <td>Pisang Goreng</td>
+            <td>280</td>
+            <td>8000</td>
+            <td>40</td>
+         </tr>
+         <!-- Baris 5 tanpa rowspan -->
+         <tr>
+            <td>5</td>
+            <td>Es Teh Manis</td>
+            <td>Minuman</td>
+            <td>120</td>
+            <td>5000</td>
+            <td>Minuman</td>
+            <td>100</td>
+         </tr>
+    </table>
+
+</body>
+</html>

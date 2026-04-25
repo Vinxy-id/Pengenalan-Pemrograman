@@ -1,0 +1,23 @@
+website adalah sekumpulan halaman yang berisi informasi
+internet adalah jaringan yang menghubungkan komputer di seluruh dunia
+
+halaman website terdiri dari text, video,gambar, tabel, dll
+
+website statis (informasi2 saja), dinamis(bisa dirubah datanya tanpa merubah codingan oleh pengunjung example SIAKAD), interactive (antar user bisa berkomunikasi)
+
+netlify hosting free
+
+HTML HyperText Markup Language <html></html>
+CSS Cascading Style Sheets
+title
+<style>CSS disini letaknya</style>
+body
+Javascript adalah bahasa pemrograman yang digunakan untuk memberikan interaktivitas pada halaman web (animasi)
+
+Pemrograman Web
+client Side Scripting (CSS) jenis script yang pengolahannnya dilakukan di sisi client biasanya interactive
+Server Side Scripting (SSS) merupakn script yang pengolahannya di sisi server biasanya bersifat dinamis
+
+Text Editor contoh Sublime Text, Sublime Text, Notepad++
+
+didalam text editor harus ada Syntax Highlighting, Auto Indent, Auto Complete
